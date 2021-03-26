@@ -1,0 +1,9 @@
+server:
+  port: 9877
+spring:
+  application:
+    name: com.hhl.provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 169.254.69.150:8848

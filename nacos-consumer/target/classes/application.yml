@@ -1,0 +1,9 @@
+server:
+  port: 9876
+spring:
+  application:
+    name: consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 169.254.69.150:8848
